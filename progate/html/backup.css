@@ -1,0 +1,61 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Itim";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ketik code Anda di bawah */
+
+header{
+    background: rgba(0, 0, 0, 0.88);
+    color: white;
+    margin-top: 10px;
+    width: 1440px;
+    height: 88px;
+}
+
+.header-left1{
+    margin: 19px 0px 27.99px 21px;
+    background-color: aqua;
+    display: inline-block;
+    width: 223px;
+    height: 41.01px;
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header-left2{
+    background-color: blue;
+    display: inline-block;
+    width: 492px;
+    height: 29.66px;
+    margin: 27.34px 652px 31px 52px;
+
+}
+.header-left2 ul{
+    display: flex;
+}
+.header-left2 li{
+    background-color: aquamarine;
+    margin-left: 33px;
+    width: 138px;
+    height: 29px;
+    font-size: 20px;
+    text-align: center;
+}
